@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+/* header css start here  */
+header {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.menu ul {
+    display: flex;
+
+
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #adb3b9;
+    text-transform: uppercase;
+    padding: 0 10px;
+    cursor: pointer;
+
+}
+
+/* header css end here  */
+/* lower header css start here  */
+
+.lower-header {
+    background-color: #adb3b9;
+    padding: 0 0;
+    background-color: rgba(246, 249, 250, .95) !important;
+    border-bottom: 1px solid rgba(246, 249, 250, .95) !important;
+}
+
+.logo {
+    background-color: #249991;
+}
+
+.logo img {
+
+    padding: 14px 20px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.menu-1 ul {
+    display: flex;
+
+
+}
+
+.menu-1 ul li {
+    list-style: none;
+}
+
+.menu-1 ul li a {
+    text-decoration: none;
+    color: #4E5C64;
+    text-transform: uppercase;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 700;
+
+
+}
+
+.menu-1 ul li a:hover {
+    background-color: lightgrey;
+}
+
+select option {
+    border: none;
+    outline: none;
+}
+
+#count {
+    border: none;
+    /* background-color:  rgba(246, 249, 250, .95) !important; */
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+#count option {
+    font-size: 16px;
+    padding: 18px;
+}
+
+#count:hover {
+    background-color: lightgrey;
+}
+
+option[value] {
+    padding: 200px;
+}
+
+.serach {
+    margin-left: 20px;
+    cursor: pointer;
+    /* padding: 10px; */
+    position: relative;
+    z-index: 101;
+}
+
+.serach input {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 0px;
+    opacity: 0;
+    z-index: 100;
+    transition: 0.5s;
+    border: none;
+}
+
+/* .serach:hover input{
+    opacity: 1;
+    top: 0;
+    width: 970px;
+
+} */
+.serach input.add {
+    opacity: 1;
+    top: 0;
+    width: 940px;
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+}
+
+/* lower header css end here  */
+/* section images css start here  */
+.images {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.image-1 img {
+    width: 600px;
+}
+
+.list-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.images-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+/* images css end here  */
+/* banner section start here  */
+.text-span {
+    margin: 16px 0px 20px;
+}
+
+.one {
+    font-size: 18px;
+}
+
+.one span {
+    color: #249991;
+}
+
+.two {
+    border-left: 3px solid #CCCCCC;
+    padding-left: 10px;
+    margin-left: 10px;
+
+}
+
+.text-1 h1 {
+    font-size: 40px;
+    color: #242A3A;
+}
+
+.three {
+    border-left: 3px solid #CCCCCC;
+    padding-left: 10px;
+    margin-left: 10px;
+
+}
+.text-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons ul{
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+.icons ul li{
+    list-style: none;
+}
+.icons ul li a{
+    text-decoration: none;
+  
+    
+}
+ .fa-facebook-f{
+  color: #4c76be;
+  
+}
+.fa-whatsapp{
+    color: #29b200;
+}
+.fa-twitter{
+    color: #00b8ec;
+}
+.fa-linkedin-in{
+    color: #0077b5;
+}
+.img-2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* form css start here  */
+.form{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+form{
+   display: flex;
+   flex-direction: column;
+}
+form input{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    display: block;
+    width: 70%;
+    background-color: #242A3A;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+label{
+    margin-bottom: 20px;
+}
